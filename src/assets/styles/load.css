@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.load-page{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+.loader{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    margin-top: auto;
+    margin-bottom: auto;
+    animation: 2s loading infinite linear;
+}
+@keyframes loading {
+    to{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    from{
+        transform: rotate(0deg);
+    }
+}
