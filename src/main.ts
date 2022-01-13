@@ -1,5 +1,5 @@
 import './assets/styles/style.css'
-import './assets/scripts/script.ts'
+import './assets/scripts/three.ts'
 
 const endLoading = () =>{
   const loadPage = document.querySelector<HTMLDivElement>('.load-page')
