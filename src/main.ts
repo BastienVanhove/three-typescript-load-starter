@@ -1,4 +1,5 @@
 import './assets/styles/style.css'
+import './assets/scripts/script.ts'
 
 const endLoading = () =>{
   const loadPage = document.querySelector<HTMLDivElement>('.load-page')
