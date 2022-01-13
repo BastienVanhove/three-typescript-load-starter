@@ -13,9 +13,13 @@
     transition: 0.5s;
 }
 .loader{
-    height: 50px;
-    width: 50px;
-    border: 1px solid white;
+    height: 70px;
+    width: 70px;
+    border: 7px solid transparent;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-radius: 50%;
     margin-top: auto;
     margin-bottom: auto;
     animation: 2s loading infinite linear;
